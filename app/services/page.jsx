@@ -6,27 +6,27 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    href: "",
+    title: "Front End Development",
+    description: "Frontend development involves creating the user interface of websites or apps using HTML, CSS, and JavaScript for interactive experiences.",
+    href: "https://cloudinary.com/guides/front-end-development/front-end-development-the-complete-guide",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    href: "",
+    title: "Backend Development",
+    description: "Backend development involves creating server-side logic, databases, and APIs that enable functionality and data management for web or app services.",
+    href: "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-backend-development",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    href: "",
+    title: "Full Stack Development",
+    description: "Full stack development involves proficiency in both client-side and server-side technologies, enabling end-to-end development of web applications.",
+    href: "https://aws.amazon.com/what-is/full-stack-development/#:~:text=Full%20stack%20development%20is%20the,user%20interactions%20with%20the%20application.",
   },
   {
     num: "04",
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    href: "",
+    description: "SEO, or Search Engine Optimization, focuses on optimizing websites to improve their visibility and ranking in search engine results pages (SERPs) organically.",
+    href: "https://codeinstitute.net/global/blog/seo-and-web-development-why-is-it-important/#:~:text=SEO%2C%20or%20Search%20Engine%20Optimization,to%20be%20exposed%20to%20them.",
   },
 ];
 

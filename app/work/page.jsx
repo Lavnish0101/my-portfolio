@@ -22,23 +22,53 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit amet consectetur",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    category: "clientside",
+    title: "Horizon",
+    description: "Horizon is a modern banking platform with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform.",
+    stack: [{ name: "Next.js" }, { name: "Plaid" }, {name: "Typescript"},{name: "Appwrite"},],
+    image: "/assets/work/horiz.png",
+    live: "https://banking-app-ashy.vercel.app/sign-in",
+    github: "https://github.com/Lavnish0101/banking-app",
   },
   {
     num: "02",
+    category: "clientside",
+    title: "Sociopedia",
+    description: "Sociopedia is a social media platform where the users can create their accounts, follow friends, share their thoughts and much more!",
+    stack: [{ name: "React.js" }, { name: "Tailwind CSS" }, { name: "MaterialUI" }],
+    image: "/assets/work/socio.png",
+    live: "https://dummy-social-media-frontend.vercel.app/",
+    github: "https://github.com/Lavnish0101/Dummy_Social_Media_Frontend",
+  },
+  {
+    num: "03",
     category: "fullstack",
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet consectetur",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    title: "Natours",
+    description: "Natours offers a comprehensive platform for exploring travel options worldwide, complemented by seamless user login and personalized experiences.",
+    stack: [{ name: "Node.js" }, { name: "Express.js" }, { name: "MongoDB" }, {name: "Pug"}],
+    image: "/assets/work/nato.png",
+    live: "https://natours-zart.onrender.com/",
+    github: "https://github.com/Lavnish0101/Natours",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Expense Tracker",
+    description: "Expense Tracker provides intuitive tools for managing finances, tracking expenditures, and optimizing budgeting strategies for personal or business needs.",
+    stack: [{ name: "React.js" }, { name: "CSS3" },],
+    image: "/assets/work/expen.png",
+    live: "https://expense-tracker-react-lavnish.netlify.app/",
+    github: "https://github.com/Lavnish0101/Expense-Tracker_React",
+  },
+  {
+    num: "05",
+    category: "clientside",
+    title: "Dummy Portfolio",
+    description: "Dummy Portfolio showcases a curated collection of projects, demonstrating skills, creativity, and versatility in web development and design.",
+    stack: [{ name: "React.js" }, { name: "Tailwind CSS" },],
+    image: "/assets/work/dummy.png",
+    live: "https://dummy-portfolio-react.netlify.app/",
+    github: "https://github.com/Lavnish0101/Dummy-Portfolio",
   },
 ];
 
@@ -71,7 +101,7 @@ const Work = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
@@ -120,7 +150,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full xl:w-[50%]">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}

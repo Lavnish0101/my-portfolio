@@ -12,9 +12,9 @@ import { SiTailwindcss, SiNextdotjs, SiMongodb, SiGit} from "react-icons/si";
 
 //about data
 const about = {
-  title: "About me",
+  title: "About Me",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquam ",
+    "Hi! I am Lavnish, a software developer with a passion for crafting innovative solutions, driven by a curiosity for understanding the intricate workings of systems.  ",
   info: [
     {
       fieldName: "Name",
@@ -59,46 +59,41 @@ const about = {
 
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  title: "My Education",
+  description: "As a full stack developer, I have learned from various sources and courses. The following are some of the courses that have had a major impact on my learning journey:",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2023",
+      institution: "IIIT Sonepat",
+      degree: "Computer Science and Engineering",
+      duration: "2021- 2025",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2023 - 2024",
+      institution: "YouTube",
+      degree: "HTML and CSS BootCamp",
+      duration: "Mar - Apr, 2023",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2022",
+      institution: "Udemy",
+      degree: "The Complete JavaScript Course",
+      duration: " July - Aug, 2023",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2021 - 2022",
+      institution: "Udemy",
+      degree: "React- The Complete Guide (incl. Next.js)",
+      duration: " Aug - Oct, 2023",
     },
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2021 - 2022",
-    },
-    {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development",
-      duration: "2021 - 2022",
+      institution: "Udemy",
+      degree: "Node.js,MongoDB - The Complete Bootcamp",
+      duration: "Nov, 2023 - Jan, 2024",
     },
   ],
 };
 
 //skills data
 const skills = {
-  title: "My skills",
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing",
+  title: "My Skills",
+  description: "Over three years as a budding full-stack developer, I have mastered a variety of technologies through diverse project experiences.The following are the list of technologies I have expertise in:",
   skillList: [
     {
       icon: <FaHtml5 />,

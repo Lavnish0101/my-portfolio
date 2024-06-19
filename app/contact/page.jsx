@@ -54,14 +54,13 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's Work Together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Architecto labore ea cumque delectus inventore.
+              Let's collaborate closely to synergize skills and efforts for achieving our objectives efficiently and effectively. 
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
+                <Input type="firstname" placeholder="First Name" />
+                <Input type="lastname" placeholder="Last Name" />
+                <Input type="email" placeholder="Email Address" />
                 <Input type="phone" placeholder="Phone Number" />
               </div>
               {/* select */}
@@ -72,9 +71,10 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectLabel value="est">Web Development</SelectLabel>
-                    <SelectLabel value="cst">UI/UX Design</SelectLabel>
-                    <SelectLabel value="mst">Logo Design</SelectLabel>
+                    <SelectItem value="est">Front-end Development</SelectItem>
+                    <SelectItem value="cst">Backend Development</SelectItem>
+                    <SelectItem value="mst">Full Stack Development</SelectItem>
+                    <SelectItem value="lst">SEO</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
