@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiMongodb, SiGit} from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiGit, SiGo, SiExpress} from "react-icons/si";
 
 //about data
 const about = {
@@ -105,15 +105,31 @@ const skills = {
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "javaScript",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "react.JS",
     },
     {
       icon: <FaNodeJs />,
-      name: "node.js",
+      name: "node.JS",
+    },
+    {
+      icon: <SiExpress />,
+      name: "express.JS",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "mongoDB",
+    },
+    {
+      icon: <SiNextdotjs />,
+      name: "next.JS",
+    },
+    {
+      icon: <SiGo />,
+      name: "go lang",
     },
     {
       icon: <FaGithub />,
@@ -122,14 +138,6 @@ const skills = {
     {
       icon: <SiGit />,
       name: "git",
-    },
-    {
-      icon: <SiMongodb />,
-      name: "mongoDB",
-    },
-    {
-      icon: <SiNextdotjs />,
-      name: "next.js",
     },
     {
       icon: <SiTailwindcss />,
