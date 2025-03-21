@@ -27,7 +27,7 @@ const projects = [
     description: "Horizon is a modern banking platform with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform.",
     stack: [{ name: "Next.js" }, { name: "Plaid" }, {name: "Typescript"},{name: "Appwrite"},],
     image: "/assets/work/horiz.png",
-    live: "https://banking-app-ashy.vercel.app/sign-in",
+    live: "https://banking-app-zs4j.onrender.com",
     github: "https://github.com/Lavnish0101/banking-app",
   },
   {
